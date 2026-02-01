@@ -164,6 +164,7 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
   - Adapter: Netlify Remix adapter configured in `vite.config.ts`
   - Build settings are mirrored in `netlify.toml`
   - Local preview command: `npm run start` (uses Netlify CLI)
+  - Environment: `NPM_CONFIG_PRODUCTION=false` to install devDependencies for the build
 - Azure Static Web Apps:
   - Build command: `npm run build`
   - Deploy as a Node app (Remix server output), or add a compatible adapter later
