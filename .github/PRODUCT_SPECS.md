@@ -136,6 +136,39 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
 ### Use cases (`/use-cases`)
 - Heading: "Use cases"
 - Subtext: "Practical workflows that respect policy, privacy, and accountability."
+- How we deliver:
+  - Heading: "How we deliver"
+  - Subtext: "Agile, transparent delivery that keeps stakeholders in the loop."
+  - Bullets:
+    - "Agile/Scrum sprints with clear scope"
+    - "Backlog creation and prioritization"
+    - "Weekly demos and stakeholder feedback"
+    - "Iterative releases with measurable progress"
+    - "Quality checks and documentation"
+- Delivered products / use cases:
+  - Heading: "Delivered products / use cases"
+  - Subtext: "Selected work that demonstrates real-world execution."
+  - Entries:
+    - Name: "AIScrub"
+      Type: "Web App / Website"
+      Summary: "A streamlined AI workflow experience that makes it easy for teams to deliver user-friendly, trustworthy outcomes without hype."
+      URL: "https://aiscrub.net"
+      Link label: "View AIScrub website"
+    - Name: "WellMind Daily"
+      Type: "Mobile App (iOS)"
+      Summary: "A privacy-first wellness check-in experience with reminders and trend insights to help users build consistent, healthy routines."
+      URL: ""
+      Badge: "Available on the App Store"
+    - Name: "Douglas Products FumiGuide"
+      Type: "Mobile App (iOS)"
+      Summary: "A field reference app that helps users access product guidance quickly and confidently while supporting on-the-job workflows."
+      URL: "https://apps.apple.com/us/app/douglas-products-fumiguide/id1314501836"
+      Link label: "View Douglas Products FumiGuide on the App Store"
+    - Name: "Datascan RFID"
+      Type: "Mobile RFID Solutions"
+      Summary: "Mobile-first RFID solutions that streamline inventory visibility and asset tracking workflows across retail and enterprise environments."
+      URL: "https://datascan.com/rfid/"
+      Link label: "View Datascan RFID"
 - Use cases list: same six bullets as Home
 - Disclaimer: "Disclaimer: Hutchinson Change does not provide legal or medical advice. All AI-enabled workflows remain human-in-the-loop with final decision authority held by your team."
 

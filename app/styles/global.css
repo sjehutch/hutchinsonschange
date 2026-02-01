@@ -237,6 +237,19 @@ a:focus-visible {
   margin-bottom: 4px;
 }
 
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--ink-soft);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
 .card ul {
   padding-left: 18px;
   margin: 0 0 14px 0;
