@@ -22,7 +22,7 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
 
 ## Global elements
 - Header: brand name + tagline + navigation
-  - Brand presentation: transparent logo image at `/images/brandlogo2.png`
+  - Brand presentation: transparent logo image at `/images/brandlogo3.png`
   - Brand behavior: logo links to `/`
   - Brand size: 170px width by 74px height (object-fit: contain)
   - Nav labels: "Home", "Offerings", "Use cases", "Contact"
