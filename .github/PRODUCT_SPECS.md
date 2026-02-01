@@ -152,8 +152,7 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
 
 ## Typeform embed configuration
 - Single constant: `TYPEFORM_EMBED_URL` in `app/utils/site.ts`
-- If empty, show placeholder text:
-  - "Typeform embed is not configured yet. Paste your Typeform embed URL into TYPEFORM_EMBED_URL in app/utils/site.ts."
+- Current Typeform URL: `https://sjehutch.typeform.com/to/CAjoDaWb`
 
 ## SEO + metadata
 - Unique title and description per route
