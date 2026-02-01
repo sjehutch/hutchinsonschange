@@ -21,11 +21,12 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
 - `/health` Plain text health check (OK)
 
 ## Global elements
-- Header: brand name + tagline + navigation
-  - Brand presentation: transparent logo image at `/images/brandlogo3.png`
-  - Brand behavior: logo links to `/`
-  - Brand size: 170px width by 74px height (object-fit: contain)
-  - Nav labels: "Home", "Offerings", "Use cases", "Contact"
+- Header: minimal, enterprise-grade, Blackstone-inspired (no slogan, no logo image)
+  - Brand text: "Hutchinson Change" (left-aligned, links to `/`)
+  - Navigation labels: "Services", "Use Cases", "Approach", "About", "Contact"
+  - Interaction: simple hover underline or subtle color shift
+  - Layout: plenty of whitespace, sticky on scroll, subtle bottom border
+  - Mobile: clean hamburger menu
 - Footer:
   - Line 1: "Hutchinson Change · AI governance and workflow enablement for public interest teams."
   - Line 2: "Copyright {year} Hutchinson Change. All rights reserved."
@@ -210,6 +211,7 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
 - Dark theme only: dark background, white or near-white text, high-contrast surfaces
 - Expressive headings with readable body type
 - Fonts: Fraunces for headings, Source Sans 3 for body
+ - Header palette: neutral black/white/gray with very subtle border
 
 ## Non-goals
 - No database

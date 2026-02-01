@@ -1,38 +1,48 @@
 // Purpose: Site-wide header with brand + primary navigation links.
 import { NavLink } from "@remix-run/react";
+import { useState } from "react";
 
 // Top navigation that stays small and readable.
 export function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className="site-header">
       <div className="container header-inner">
-        <div className="brand">
-          {/* Brand image is clickable and returns to the home page. */}
-          <NavLink to="/" className="brand-link" aria-label="Hutchinson Change home">
-            <img
-              className="brand-image"
-              src="/images/brandlogo3.png"
-              alt="Hutchinson Change"
-            />
-          </NavLink>
-        </div>
+        <NavLink to="/" className="brand-text" aria-label="Hutchinson Change home">
+          Hutchinson Change
+        </NavLink>
+        {/* Mobile menu button toggles the nav list. */}
+        <button
+          type="button"
+          className="nav-toggle"
+          aria-label="Toggle navigation menu"
+          aria-expanded={menuOpen}
+          onClick={() => setMenuOpen((open) => !open)}
+        >
+          <span className="nav-toggle-bar" />
+          <span className="nav-toggle-bar" />
+          <span className="nav-toggle-bar" />
+        </button>
         {/* Simple primary navigation for the four main pages. */}
-        <nav className="nav" aria-label="Primary">
-          <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}
-            end
-          >
-            Home
+        <nav
+          className={`nav ${menuOpen ? "open" : ""}`}
+          aria-label="Primary"
+          onClick={() => setMenuOpen(false)}
+        >
+          <NavLink to="/offerings" className={({ isActive }) => (isActive ? "active" : "")}>
+            Services
           </NavLink>
-          <NavLink to="/offerings" className={({ isActive }) => (isActive ? "active" : "")}
-          >
-            Offerings
+          <NavLink to="/use-cases" className={({ isActive }) => (isActive ? "active" : "")}>
+            Use Cases
           </NavLink>
-          <NavLink to="/use-cases" className={({ isActive }) => (isActive ? "active" : "")}
-          >
-            Use cases
+          <NavLink to="/offerings" className={({ isActive }) => (isActive ? "active" : "")}>
+            Approach
           </NavLink>
-          <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}
-          >
+          <NavLink to="/offerings" className={({ isActive }) => (isActive ? "active" : "")}>
+            About
+          </NavLink>
+          <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}>
             Contact
           </NavLink>
         </nav>

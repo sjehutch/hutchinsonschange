@@ -75,9 +75,9 @@ a:focus-visible {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(8, 12, 15, 0.9);
+  background: rgba(8, 12, 15, 0.92);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .header-inner {
@@ -88,28 +88,20 @@ a:focus-visible {
   gap: 24px;
 }
 
-.brand {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.brand-link {
-  display: inline-flex;
-  align-items: center;
-}
-
-.brand-image {
-  height: 74px;
-  width: 170px;
-  display: block;
-  object-fit: contain;
+.brand-text {
+  font-family: "Fraunces", "Georgia", serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
+  color: var(--ink);
 }
 
 .nav {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
+  display: none;
+  flex-direction: column;
+  gap: 14px;
+  padding: 12px 0 0;
+  width: 100%;
 }
 
 .nav a {
@@ -121,6 +113,34 @@ a:focus-visible {
 .nav a.active {
   border-bottom-color: var(--accent);
   color: var(--accent);
+}
+
+.nav a:hover,
+.nav a:focus-visible {
+  color: var(--ink);
+  border-bottom-color: rgba(255, 255, 255, 0.4);
+}
+
+.nav-toggle {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: transparent;
+  border-radius: 10px;
+  padding: 8px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.nav-toggle-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--ink);
+}
+
+.nav.open {
+  display: flex;
 }
 
 .hero {
@@ -333,6 +353,22 @@ a:focus-visible {
 @media (min-width: 768px) {
   .hero-inner {
     grid-template-columns: 1.2fr 0.8fr;
+  }
+
+  .header-inner {
+    padding: 22px 0;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: auto;
+    padding: 0;
+  }
+
+  .nav-toggle {
+    display: none;
   }
 
   .grid.cards {
