@@ -8,13 +8,13 @@ import {
   ScrollRestoration
 } from "@remix-run/react";
 import { useEffect } from "react";
-import { Layout } from "~/components/Layout";
+import { Layout } from "./components/Layout";
 import {
   SITE_DESCRIPTION,
   SITE_TAGLINE,
   SITE_TITLE
-} from "~/utils/site";
-import globalStyles from "~/styles/global.css";
+} from "./utils/site";
+import globalStyles from "./styles/global.css";
 
 // Load the global stylesheet for every route.
 export const links: LinksFunction = () => [{ rel: "stylesheet", href: globalStyles }];

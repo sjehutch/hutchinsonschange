@@ -1,7 +1,7 @@
 // Purpose: Offerings page with outcomes, deliverables, and timelines.
 import type { MetaFunction } from "@remix-run/node";
-import { Card } from "~/components/Card";
-import { SITE_TITLE } from "~/utils/site";
+import { Card } from "../components/Card";
+import { SITE_TITLE } from "../utils/site";
 
 export const meta: MetaFunction = () => {
   const title = `${SITE_TITLE} | Offerings`;

@@ -1,5 +1,5 @@
 // Purpose: Embed Typeform contact form or show a friendly setup hint.
-import { TYPEFORM_EMBED_URL } from "~/utils/site";
+import { TYPEFORM_EMBED_URL } from "../utils/site";
 
 // Embedded Typeform panel. If the URL is missing, show a friendly hint.
 export function TypeformEmbed() {

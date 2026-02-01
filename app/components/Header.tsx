@@ -1,6 +1,6 @@
 // Purpose: Site-wide header with brand + primary navigation links.
 import { NavLink } from "@remix-run/react";
-import { SITE_TAGLINE, SITE_TITLE } from "~/utils/site";
+import { SITE_TAGLINE, SITE_TITLE } from "../utils/site";
 
 // Top navigation that stays small and readable.
 export function Header() {

@@ -1,5 +1,5 @@
 // Purpose: Site-wide footer with short reassurance and copyright line.
-import { SITE_TITLE } from "~/utils/site";
+import { SITE_TITLE } from "../utils/site";
 
 // Simple footer with a short line of reassurance.
 export function Footer() {

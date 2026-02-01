@@ -1,9 +1,9 @@
 // Purpose: Home page with the core story, offerings, and contact call-to-action.
 import type { MetaFunction } from "@remix-run/node";
-import { CtaButton } from "~/components/CtaButton";
-import { Card } from "~/components/Card";
-import { TypeformEmbed } from "~/components/TypeformEmbed";
-import { SITE_DESCRIPTION, SITE_TITLE } from "~/utils/site";
+import { CtaButton } from "../components/CtaButton";
+import { Card } from "../components/Card";
+import { TypeformEmbed } from "../components/TypeformEmbed";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../utils/site";
 
 export const meta: MetaFunction = () => {
   const title = `${SITE_TITLE} | AI governance and workflow enablement`;

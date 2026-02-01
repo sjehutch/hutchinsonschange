@@ -1,6 +1,6 @@
 // Purpose: Use-cases page focused on government-ready AI workflows.
 import type { MetaFunction } from "@remix-run/node";
-import { SITE_TITLE } from "~/utils/site";
+import { SITE_TITLE } from "../utils/site";
 
 export const meta: MetaFunction = () => {
   const title = `${SITE_TITLE} | Use cases`;

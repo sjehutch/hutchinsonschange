@@ -1,7 +1,7 @@
 // Purpose: Contact page with Typeform embed and email fallback.
 import type { MetaFunction } from "@remix-run/node";
-import { TypeformEmbed } from "~/components/TypeformEmbed";
-import { SITE_TITLE } from "~/utils/site";
+import { TypeformEmbed } from "../components/TypeformEmbed";
+import { SITE_TITLE } from "../utils/site";
 
 export const meta: MetaFunction = () => {
   const title = `${SITE_TITLE} | Contact`;
