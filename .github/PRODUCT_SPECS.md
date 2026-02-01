@@ -175,7 +175,7 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
 ## Styling goals
 - Calm, modern, government-friendly
 - Mobile-first layout with responsive grids on tablet/desktop
-- Light gradient background, soft card surfaces, high-contrast text
+- Dark theme only: dark background, white or near-white text, high-contrast surfaces
 - Expressive headings with readable body type
 - Fonts: Fraunces for headings, Source Sans 3 for body
 
