@@ -100,9 +100,10 @@ a:focus-visible {
 }
 
 .brand-image {
-  height: 72px;
-  width: auto;
+  height: 74px;
+  width: 170px;
   display: block;
+  object-fit: contain;
 }
 
 .nav {

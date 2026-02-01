@@ -24,7 +24,7 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
 - Header: brand name + tagline + navigation
   - Brand presentation: transparent logo image at `/images/brandlogo2.png`
   - Brand behavior: logo links to `/`
-  - Brand size: 72px height (responsive width)
+  - Brand size: 170px width by 74px height (object-fit: contain)
   - Nav labels: "Home", "Offerings", "Use cases", "Contact"
 - Footer:
   - Line 1: "Hutchinson Change · AI governance and workflow enablement for public interest teams."
