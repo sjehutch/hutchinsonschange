@@ -11,7 +11,7 @@ export function Header() {
           <NavLink to="/" className="brand-link" aria-label="Hutchinson Change home">
             <img
               className="brand-image"
-              src="/images/brandlogo.png"
+              src="/images/brandlogo2.png"
               alt="Hutchinson Change"
             />
           </NavLink>
