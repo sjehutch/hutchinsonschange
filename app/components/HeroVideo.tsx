@@ -22,13 +22,23 @@ export function HeroVideo({
 
   useEffect(() => {
     // If a user prefers reduced motion, we avoid autoplay video.
+    if (typeof window === "undefined" || !window.matchMedia) {
+      return;
+    }
+
     const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
     const update = () => setReduceMotion(mediaQuery.matches);
 
     update();
-    mediaQuery.addEventListener("change", update);
 
-    return () => mediaQuery.removeEventListener("change", update);
+    // Support older browsers that use addListener/removeListener.
+    if (mediaQuery.addEventListener) {
+      mediaQuery.addEventListener("change", update);
+      return () => mediaQuery.removeEventListener("change", update);
+    }
+
+    mediaQuery.addListener(update);
+    return () => mediaQuery.removeListener(update);
   }, []);
 
   return (
