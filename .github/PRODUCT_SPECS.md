@@ -253,9 +253,10 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
 ### Approach (`/approach`)
 - Hero:
   - Title: "A practical approach to AI that ships."
-  - Subtitle: "We help teams adopt AI responsibly with governance, measurable pilots, and real workflow integration."
-  - CTA buttons: "Start a conversation" (routes to `/contact`), "View use cases" (routes to `/use-cases`)
-  - Visual: subtle animated background gradient/mesh that respects prefers-reduced-motion
+  - Subtitle: "Governance-first. Measurable. Human-led."
+  - CTA buttons: "Our Approach" (anchors to `#approach-details`), "View Use Cases" (routes to `/use-cases`)
+  - Small line: "No hype. Just outcomes."
+  - Visual: ambient background video with gradient overlay; respects prefers-reduced-motion
 - What we help you achieve:
   - Heading: "What we help you achieve"
   - Subtext: "Clear outcomes that keep risk low and adoption high."

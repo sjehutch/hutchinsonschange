@@ -1,7 +1,7 @@
 // Purpose: Approach page with a structured, enterprise-grade delivery story.
 import type { MetaFunction } from "@remix-run/node";
-import { CtaButton } from "../components/CtaButton";
 import { Card } from "../components/Card";
+import { HeroVideo } from "../components/HeroVideo";
 import { SITE_TITLE } from "../utils/site";
 
 export const meta: MetaFunction = () => {
@@ -94,25 +94,18 @@ export default function Approach() {
     <div className="page">
       <section className="section">
         <div className="container">
-          {/* Hero section with a subtle animated background layer. */}
-          <div className="approach-hero">
-            <div className="approach-hero-content">
-              <h1>A practical approach to AI that ships.</h1>
-              <p>
-                We help teams adopt AI responsibly with governance, measurable pilots,
-                and real workflow integration.
-              </p>
-              <div className="cta-row">
-                <CtaButton href="/contact">Start a conversation</CtaButton>
-                <CtaButton href="/use-cases" variant="secondary">
-                  View use cases
-                </CtaButton>
-              </div>
-            </div>
-          </div>
+          {/* Hero section uses the ambient background video. */}
+          <HeroVideo
+            videoSrc="/images/AI_VI_2_Hero_Graphic_Widescreen_2.mp4"
+            headline="A practical approach to AI that ships."
+            subheadline="Governance-first. Measurable. Human-led."
+            primaryCta={{ label: "Our Approach", href: "#approach-details" }}
+            secondaryCta={{ label: "View Use Cases", href: "/use-cases" }}
+          />
 
           {/* Outcome cards: quick summary of value. */}
           <div className="section-header">
+            <span id="approach-details" />
             <h2>What we help you achieve</h2>
             <p>Clear outcomes that keep risk low and adoption high.</p>
           </div>
