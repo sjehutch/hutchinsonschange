@@ -30,14 +30,11 @@ export function Header() {
           aria-label="Primary"
           onClick={() => setMenuOpen(false)}
         >
-          <NavLink to="/offerings" className={({ isActive }) => (isActive ? "active" : "")}>
-            Services
+          <NavLink to="/use-cases" className={({ isActive }) => (isActive ? "active" : "")}>
+            Approach
           </NavLink>
           <NavLink to="/use-cases" className={({ isActive }) => (isActive ? "active" : "")}>
             Use Cases
-          </NavLink>
-          <NavLink to="/offerings" className={({ isActive }) => (isActive ? "active" : "")}>
-            Approach
           </NavLink>
           <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}>
             About

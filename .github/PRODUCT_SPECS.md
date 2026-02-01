@@ -24,8 +24,8 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
 ## Global elements
 - Header: minimal, enterprise-grade, Blackstone-inspired (no slogan, no logo image)
   - Brand text: "Hutchinson Change" (left-aligned, links to `/`)
-  - Brand framing: subtle white 2px border around brand text with light padding
-  - Navigation labels: "Services", "Use Cases", "Approach", "About", "Contact"
+  - Brand framing: subtle white 2px border around brand text with light padding (10px vertical, 18px horizontal)
+  - Navigation labels: "Approach", "Use Cases", "About", "Contact"
   - Interaction: simple hover underline or subtle color shift
   - Layout: plenty of whitespace, sticky on scroll, subtle bottom border
   - Mobile: clean hamburger menu
