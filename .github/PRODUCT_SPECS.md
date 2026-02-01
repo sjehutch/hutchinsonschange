@@ -18,6 +18,7 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
 - `/offerings` Offerings deep dive
 - `/use-cases` Government-relevant use cases
 - `/about` About (technology, governance, delivery)
+- `/approach` Approach (delivery and governance approach)
 - `/contact` Contact page with Typeform embed
 - `/health` Plain text health check (OK)
 
@@ -247,8 +248,61 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
 - CTA:
   - Title: "Let’s make AI safe and useful in the real world."
   - Copy: "Reach out for a discovery call or governance review. We will respond with a clear next step."
-  - Button: "Start a conversation" (routes to `/contact`)
+- Button: "Start a conversation" (routes to `/contact`)
 
+### Approach (`/approach`)
+- Hero:
+  - Title: "A practical approach to AI that ships."
+  - Subtitle: "We help teams adopt AI responsibly with governance, measurable pilots, and real workflow integration."
+  - CTA buttons: "Start a conversation" (routes to `/contact`), "View use cases" (routes to `/use-cases`)
+  - Visual: subtle animated background gradient/mesh that respects prefers-reduced-motion
+- What we help you achieve:
+  - Heading: "What we help you achieve"
+  - Subtext: "Clear outcomes that keep risk low and adoption high."
+  - Cards:
+    - "Safer AI adoption"
+      - "Governance and guardrails from day one"
+      - "Risk tiers and decision rights"
+      - "Audit-ready documentation"
+    - "Faster execution"
+      - "Pilot to rollout in focused sprints"
+      - "Clear acceptance criteria"
+      - "Weekly stakeholder demos"
+    - "Real workflow value"
+      - "Operational use cases, not demos"
+      - "Measured time and quality impact"
+      - "Adoption-focused delivery"
+    - "Team enablement"
+      - "Training and playbooks"
+      - "Change management support"
+      - "Internal capability building"
+- Our delivery approach:
+  - Heading: "Our delivery approach"
+  - Subtext: "Structured steps that align governance with execution."
+  - Steps:
+    - "Assess" — "Current workflows, risks, constraints, and data boundaries."
+    - "Govern" — "Policies, risk tiers, review gates, and audit logging."
+    - "Pilot" — "2–6 week pilot with acceptance criteria and KPIs."
+    - "Integrate" — "Production integration into daily tools and reporting."
+    - "Scale" — "Iterate safely and build internal capability."
+- Governance built-in (not bolted-on):
+  - Bullets:
+    - "Data handling rules (what can/can’t leave systems)"
+    - "Human-in-the-loop for high risk decisions"
+    - "Audit trails and logging recommendations"
+    - "Vendor and model selection checklist"
+    - "Prompt/agent standards and change control"
+- Where AI fits best:
+  - Categories:
+    - "Knowledge retrieval and search (RAG)"
+    - "Support automation (triage, summaries, routing)"
+    - "Document workflows (intake, extraction, classification)"
+    - "QA/testing assistance and internal copilots"
+  - Note: "We do not promise magic. We focus on measurable business outcomes that teams can trust."
+- Proof and examples:
+  - Heading: "Proof and examples"
+  - Subtext: "Explore delivered work and practical outcomes."
+  - CTA: "View use cases" (routes to `/use-cases`)
 ### Contact (`/contact`)
 - Heading: "Contact"
 - Subtext: "Tell us about your goals and constraints, and we will follow up."
