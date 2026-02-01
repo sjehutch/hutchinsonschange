@@ -1,5 +1,6 @@
 // Purpose: Approach page with a structured, enterprise-grade delivery story.
 import type { MetaFunction } from "@remix-run/node";
+import { CtaButton } from "../components/CtaButton";
 import { Card } from "../components/Card";
 import { HeroVideo } from "../components/HeroVideo";
 import { SITE_TITLE } from "../utils/site";

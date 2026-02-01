@@ -1,3 +1,7 @@
-// Purpose: Provide Remix type definitions to the TypeScript compiler.
+/// <reference types="@remix-run/dev" />
 /// <reference types="@remix-run/node" />
-/// <reference types="@remix-run/react" />
+/**
+ * Purpose:
+ * - This wires Remix’s server/runtime types into TypeScript.
+ * - It is NOT done via tsconfig "types" because that breaks JSX type discovery.
+ */

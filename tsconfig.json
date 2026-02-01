@@ -2,19 +2,17 @@
   "compilerOptions": {
     "target": "ES2022",
     "lib": ["DOM", "DOM.Iterable", "ES2022"],
-    "types": ["@remix-run/node", "@remix-run/react", "vite/client"],
-    "isolatedModules": true,
-    "esModuleInterop": true,
     "jsx": "react-jsx",
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
     "strict": true,
-    "allowJs": false,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true
   },
-  "include": ["app", "remix.env.d.ts"],
+  "include": ["app", "remix.env.d.ts", "vite-env.d.ts"],
   "exclude": ["node_modules"]
 }
