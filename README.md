@@ -7,7 +7,8 @@ Calm, production-grade marketing site for Hutchinson Change, focused on AI gover
 - Regulated enterprise teams that need trustworthy AI governance and implementation support
 
 ## Tech stack
-- Remix (React + TypeScript)
+- Remix (React + TypeScript) with Vite
+- Netlify Remix adapter for deploys
 - Plain CSS (no frameworks)
 
 ## Run locally
@@ -16,10 +17,17 @@ npm install
 npm run dev
 ```
 
+## Optional local preview (Netlify)
+```bash
+npm run start
+```
+Note: this uses the Netlify CLI. Install it first with `npm i -g netlify-cli` if needed.
+
 ## Deploy (high level)
 ### Netlify
 - Build command: `npm run build`
-- Deploy as a Node app (Remix server output), or add a Netlify adapter later.
+- Publish directory: `build/client`
+- Netlify adapter is already configured in `vite.config.ts`.
 
 ### Azure Static Web Apps
 - Build command: `npm run build`

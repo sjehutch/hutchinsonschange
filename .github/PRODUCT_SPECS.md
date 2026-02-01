@@ -157,6 +157,17 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
 - Base OpenGraph tags (title + description) on the root layout
 - One H1 per page
 
+## Deployment notes
+- Netlify:
+  - Build command: `npm run build`
+  - Publish directory: `build/client`
+  - Adapter: Netlify Remix adapter configured in `vite.config.ts`
+  - Build settings are mirrored in `netlify.toml`
+  - Local preview command: `npm run start` (uses Netlify CLI)
+- Azure Static Web Apps:
+  - Build command: `npm run build`
+  - Deploy as a Node app (Remix server output), or add a compatible adapter later
+
 ## Styling goals
 - Calm, modern, government-friendly
 - Mobile-first layout with responsive grids on tablet/desktop
@@ -174,6 +185,7 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
 - Plain CSS only (no Tailwind or CSS frameworks)
 - Minimal file count; keep structure clean and SOLID
 - Copy must match this document exactly
+- Build system: Remix with Vite + Netlify adapter
 
 ## Future ideas (not implemented)
 - Case studies and procurement artifacts
