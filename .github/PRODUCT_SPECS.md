@@ -17,6 +17,7 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
 - `/` Home
 - `/offerings` Offerings deep dive
 - `/use-cases` Government-relevant use cases
+- `/about` About (technology, governance, delivery)
 - `/contact` Contact page with Typeform embed
 - `/health` Plain text health check (OK)
 
@@ -173,6 +174,80 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
       Link label: "View Datascan RFID"
 - Use cases list: same six bullets as Home
 - Disclaimer: "Disclaimer: Hutchinson Change does not provide legal or medical advice. All AI-enabled workflows remain human-in-the-loop with final decision authority held by your team."
+
+### About (`/about`)
+- Hero:
+  - Title: "Technology, governance, and delivery that make AI usable."
+  - Subtitle: "We help organizations adopt AI responsibly, securely, and in a way teams actually use. Our focus is practical governance, measurable delivery, and workflows that stand up to oversight."
+  - Pill highlights:
+    - "AI Governance & Policy"
+    - "Workflow Automation"
+    - "Secure AI Enablement"
+    - "Delivery with Agile/Scrum"
+- What we do:
+  - Heading: "What we do"
+  - Subtext: "Focused services that balance innovation with governance."
+  - Cards:
+    - "AI Strategy & Readiness"
+      - "Assess current workflows and readiness"
+      - "Identify high-value, low-risk opportunities"
+      - "Align goals to policy and oversight"
+    - "AI Governance & Risk Controls"
+      - "Define guardrails and decision rights"
+      - "Establish review and audit pathways"
+      - "Guide vendor and model evaluation"
+    - "Practical Implementation (Workflows + Tooling)"
+      - "Pilot real workflows with measurable outcomes"
+      - "Enable staff with usable tools and training"
+      - "Iterate with feedback and documentation"
+- How we work:
+  - Heading: "How we work"
+  - Subtext: "Agile/Scrum delivery with clear milestones and shared accountability."
+  - Steps:
+    - "Discover" — "Map current workflows, constraints, and priorities."
+    - "Design" — "Define governance, target workflows, and success criteria."
+    - "Build" — "Deliver a pilot with measurable outcomes and risk controls."
+    - "Rollout" — "Enable teams, add guardrails, and iterate safely."
+- Responsible AI panel:
+  - Heading: "We take this seriously"
+  - Bullets:
+    - "Privacy-first patterns"
+    - "Human-in-the-loop for high-risk decisions"
+    - "Auditability and logging"
+    - "Vendor and model evaluation guidance"
+    - "Clear data boundaries (what goes to cloud, what stays internal)"
+- Delivered work / proof:
+  - Heading: "Delivered work / proof"
+  - Subtext: "Selected outcomes that show how we execute."
+  - Tiles:
+    - "AIScrub.net" — "Production web tool focused on automated workflows and quality."
+      - Tags: "Web", "AI", "Workflow"
+      - URL: "https://aiscrub.net"
+      - Link label: "View AIScrub website"
+    - "WellMind Daily" — "Mobile wellness app with calm check-ins and trends."
+      - Tags: "Mobile", "Wellness", "Privacy"
+      - URL: ""
+      - Badge: "Available on the App Store"
+    - "Douglas Products Fumiguide" — "Mobile product guide app with field usability."
+      - Tags: "Mobile", "Field", "Reference"
+      - URL: "https://apps.apple.com/us/app/douglas-products-fumiguide/id1314501836"
+      - Link label: "View Douglas Products Fumiguide on the App Store"
+    - "Datascan RFID" — "Mobile RFID solutions supporting enterprise inventory workflows."
+      - Tags: "RFID", "Mobile", "Inventory"
+      - URL: "https://datascan.com/rfid/"
+      - Link label: "View Datascan RFID"
+- Who we help:
+  - Heading: "Who we help"
+  - Subtext: "Reducing risk and increasing adoption across complex environments."
+  - List:
+    - "Government & Public Sector"
+    - "Healthcare"
+    - "Retail / Supply Chain"
+    - "Enterprise IT & Operations"
+- CTA:
+  - Title: "Let’s make AI safe and useful in the real world."
+  - Copy: "Reach out for a discovery call or governance review. We will respond with a clear next step."
+  - Button: "Start a conversation" (routes to `/contact`)
 
 ### Contact (`/contact`)
 - Heading: "Contact"

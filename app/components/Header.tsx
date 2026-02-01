@@ -39,7 +39,7 @@ export function Header() {
           <NavLink to="/offerings" className={({ isActive }) => (isActive ? "active" : "")}>
             Approach
           </NavLink>
-          <NavLink to="/offerings" className={({ isActive }) => (isActive ? "active" : "")}>
+          <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}>
             About
           </NavLink>
           <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}>
