@@ -14,7 +14,7 @@ import {
   SITE_TAGLINE,
   SITE_TITLE
 } from "./utils/site";
-import globalStyles from "./styles/global.css";
+import globalStyles from "./styles/global.css?url";
 
 // Load the global stylesheet for every route.
 export const links: LinksFunction = () => [{ rel: "stylesheet", href: globalStyles }];
