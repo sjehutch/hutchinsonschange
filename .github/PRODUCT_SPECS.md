@@ -23,7 +23,7 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
 ## Global elements
 - Header: minimal, enterprise-grade, Blackstone-inspired (no slogan, no logo image)
   - Brand text: "Hutchinson Change" (left-aligned, links to `/`)
-  - Brand framing: subtle white border around brand text with light padding
+  - Brand framing: subtle white 2px border around brand text with light padding
   - Navigation labels: "Services", "Use Cases", "Approach", "About", "Contact"
   - Interaction: simple hover underline or subtle color shift
   - Layout: plenty of whitespace, sticky on scroll, subtle bottom border
@@ -211,8 +211,10 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
 - Mobile-first layout with responsive grids on tablet/desktop
 - Dark theme only: dark background, white or near-white text, high-contrast surfaces
 - Expressive headings with readable body type
-- Fonts: Fraunces for headings, Source Sans 3 for body
- - Header palette: neutral black/white/gray with very subtle border
+- Fonts:
+  - Brand text: Playfair Display
+  - Navigation + UI: Inter
+- Header palette: neutral black/white/gray with very subtle border
 
 ## Non-goals
 - No database

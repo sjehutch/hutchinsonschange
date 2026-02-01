@@ -1,5 +1,5 @@
 /* Purpose: Global site styling with a calm, modern, government-friendly look. */
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600&display=swap");
+/* Fonts are linked in the HTML layout to keep loading explicit. */
 
 :root {
   color-scheme: dark;
@@ -21,7 +21,7 @@
 
 body {
   margin: 0;
-  font-family: "Source Sans 3", "Segoe UI", sans-serif;
+  font-family: "Inter", "Segoe UI", sans-serif;
   color: var(--ink);
   background: radial-gradient(circle at top, #1b2a31 0%, #0b1114 55%, #06090b 100%);
   min-height: 100vh;
@@ -30,7 +30,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Fraunces", "Georgia", serif;
+  font-family: "Inter", "Segoe UI", sans-serif;
   margin: 0 0 12px 0;
   color: var(--ink);
 }
@@ -89,12 +89,12 @@ a:focus-visible {
 }
 
 .brand-text {
-  font-family: "Fraunces", "Georgia", serif;
+  font-family: "Playfair Display", "Georgia", serif;
   font-weight: 700;
   font-size: 1.15rem;
   letter-spacing: 0.02em;
   color: var(--ink);
-  border: 1px solid rgba(255, 255, 255, 0.55);
+  border: 2px solid rgba(255, 255, 255, 0.65);
   padding: 8px 14px;
   border-radius: 6px;
 }
