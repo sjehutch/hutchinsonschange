@@ -22,6 +22,8 @@ Build a calm, trustworthy, government-friendly marketing site that explains Hutc
 
 ## Global elements
 - Header: brand name + tagline + navigation
+  - Brand presentation: transparent logo image at `/images/brandlogo.png`
+  - Brand behavior: logo links to `/`
   - Nav labels: "Home", "Offerings", "Use cases", "Contact"
 - Footer:
   - Line 1: "Hutchinson Change · AI governance and workflow enablement for public interest teams."

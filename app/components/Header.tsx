@@ -1,6 +1,5 @@
 // Purpose: Site-wide header with brand + primary navigation links.
 import { NavLink } from "@remix-run/react";
-import { SITE_TAGLINE, SITE_TITLE } from "../utils/site";
 
 // Top navigation that stays small and readable.
 export function Header() {
@@ -8,8 +7,14 @@ export function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <div className="brand">
-          <span className="brand-name">{SITE_TITLE}</span>
-          <span className="brand-tagline">{SITE_TAGLINE}</span>
+          {/* Brand image is clickable and returns to the home page. */}
+          <NavLink to="/" className="brand-link" aria-label="Hutchinson Change home">
+            <img
+              className="brand-image"
+              src="/images/brandlogo.png"
+              alt="Hutchinson Change"
+            />
+          </NavLink>
         </div>
         {/* Simple primary navigation for the four main pages. */}
         <nav className="nav" aria-label="Primary">
