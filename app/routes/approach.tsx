@@ -3,6 +3,7 @@ import type { MetaFunction } from "@remix-run/node";
 import { CtaButton } from "../components/CtaButton";
 import { Card } from "../components/Card";
 import { HeroVideo } from "../components/HeroVideo";
+import { RiskReductionCallout } from "../components/RiskReductionCallout";
 import { SITE_TITLE } from "../utils/site";
 
 export const meta: MetaFunction = () => {
@@ -77,11 +78,10 @@ export default function Approach() {
   ];
 
   const governanceBullets = [
-    "Data handling rules (what can/can’t leave systems)",
-    "Human-in-the-loop for high risk decisions",
-    "Audit trails and logging recommendations",
-    "Vendor and model selection checklist",
-    "Prompt/agent standards and change control"
+    "Decision rights and escalation paths",
+    "Model usage policies with review gates",
+    "Prompt/agent standards and change control",
+    "Third-party risk review and approvals"
   ];
 
   const fitAreas = [
@@ -103,6 +103,7 @@ export default function Approach() {
             primaryCta={{ label: "Our Approach", href: "#approach-details" }}
             secondaryCta={{ label: "View Use Cases", href: "/use-cases" }}
           />
+          <RiskReductionCallout />
 
           {/* Outcome cards: quick summary of value. */}
           <div className="section-header">

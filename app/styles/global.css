@@ -389,6 +389,47 @@ a:focus-visible {
   padding-left: 18px;
 }
 
+.risk-callout {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px;
+  background: rgba(12, 18, 22, 0.6);
+  box-shadow: var(--shadow);
+  margin: 24px 0 32px;
+}
+
+.risk-callout-title {
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+}
+
+.risk-callout-description {
+  margin-bottom: 14px;
+}
+
+.risk-callout-list {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--ink-soft);
+}
+
+.risk-callout.compact {
+  padding: 16px 18px;
+  margin: 8px 0;
+}
+
+.risk-callout.compact .risk-callout-title {
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+  opacity: 0.9;
+}
+
+.risk-callout.compact .risk-callout-description {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  opacity: 0.85;
+}
+
 .cta-panel {
   display: flex;
   flex-direction: column;
