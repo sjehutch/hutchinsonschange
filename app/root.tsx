@@ -16,8 +16,11 @@ import {
 } from "./utils/site";
 import globalStyles from "./styles/global.css?url";
 
-// Load the global stylesheet for every route.
-export const links: LinksFunction = () => [{ rel: "stylesheet", href: globalStyles }];
+// Load the global stylesheet and favicon for every route.
+export const links: LinksFunction = () => [
+  { rel: "stylesheet", href: globalStyles },
+  { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }
+];
 
 // Base meta tags used on every page.
 export const meta: MetaFunction = () => {
